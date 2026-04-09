@@ -93,7 +93,26 @@ platforms:
       name: "金十数据"
     - id: "fastbull"
       name: "快讯通"
-
+    - id: "ithome"
+      name: "IT之家"
+    - id: "juejin"
+      name: "掘金"
+    - id: "github"
+      name: "GitHub"
+    - id: "hackernews"
+      name: "Hacker News"
+    - id: "solidot"
+      name: "Solidot"
+    - id: "v2ex"
+      name: "V2EX"
+    - id: "nowcoder"
+      name: "牛客网"
+    - id: "pcbeta"
+      name: "远景论坛"
+    - id: "sspai"
+      name: "少数派"
+    - id: "producthunt"
+      name: "ProductHunt"
 
 
 # ===============================================================
@@ -593,8 +612,8 @@ advanced:
   # 排序权重（用于重新排序不同平台的热搜）
   # 合起来等于 1
   weight:
-    rank: 0.6                         # 排名权重
-    frequency: 0.3                    # 频次权重
+    rank: 0.4                         # 排名权重
+    frequency: 0.5                    # 频次权重
     hotness: 0.1                      # 热度权重
 
   # 多账号限制
